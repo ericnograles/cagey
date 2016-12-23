@@ -9,44 +9,64 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Image,
+  TouchableOpacity,
+  Dimensions
 } from 'react-native';
 
+require('./nic-cage-screaming.mp3');
+const Sound = require('react-native-sound');
+const window = Dimensions.get('window');
+
 export default class Cagey extends Component {
+  playSound = () => {
+    let clip = new Sound('nic-cage-screaming.mp3', Sound.MAIN_BUNDLE, (e) => {
+      if (e) {
+        console.log(e);
+      } else {
+        console.log('duration', clip.getDuration());
+        clip.play();
+      }
+    });
+  };
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      <Image style={styles.container} source={require('./assets/nic-cage-crazy.jpg')} resizeMode="cover">
+        <View>
+          <TouchableOpacity style={{
+              justifyContent: 'center',
+              alignItems: 'center',
+              width: window.width * 0.8,
+              padding: 10,
+              marginBottom: 20,
+              borderWidth: 1,
+              borderColor: '#ffffff',
+              backgroundColor: 'rgb(151, 6, 41)',
+              borderRadius: 64
+          }} onPress={this.playSound}>
+            <Text style={{
+              backgroundColor: 'rgb(151, 6, 41)',
+              color: '#ffffff',
+              fontWeight: 'bold',
+              fontSize: 24
+            }}>
+              Unlock the Cage
+            </Text>
+          </TouchableOpacity>
+        </View>
+      </Image>
     );
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+    width: window.width,
+    height: window.height
   },
 });
 
