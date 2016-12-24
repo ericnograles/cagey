@@ -25,10 +25,7 @@
 		7F11DB8E1E0F01670065202D /* libPods-Cagey.a in Sources */ = {isa = PBXBuildFile; fileRef = 76B74C32AA8F486BA1151756 /* libPods-Cagey.a */; };
 		7F6DFD031E0DA302004ABEC8 /* nic-cage-screaming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F6DFD021E0DA302004ABEC8 /* nic-cage-screaming.mp3 */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		9921009B60DCE3784BB2F5CC /* libPods-Cagey.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B74C32AA8F486BA1151756 /* libPods-Cagey.a */; };
-		D4F126F3C8724515AABFA246 /* MobileCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C2AC3CFBCFB4806A019FCF0 /* MobileCenter-Config.plist */; };
 		D8AFD7788A4D42DDBAC85D9C /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B6031717B040AA9764C0B3 /* libRNSound.a */; };
-		D9FD3A1774A24716A52507B8 /* libRNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC8F82195FF4B2CB9144937 /* libRNAnalytics.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,13 +169,6 @@
 			remoteGlobalIDString = 19825A1E1BD4A89800EE0337;
 			remoteInfo = RNSound;
 		};
-		7FCB59231E0EE5BC00B550DF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 858B2ECB72314A66BEFB2612 /* RNAnalytics.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 548694001D8384E600E6685A;
-			remoteInfo = RNAnalytics;
-		};
 		832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
@@ -209,17 +199,11 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Cagey/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		22B6031717B040AA9764C0B3 /* libRNSound.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSound.a; sourceTree = "<group>"; };
-		25A14ECC1B5579A1E6B4DBBA /* Pods-Cagey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cagey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cagey/Pods-Cagey.debug.xcconfig"; sourceTree = "<group>"; };
-		5C2AC3CFBCFB4806A019FCF0 /* MobileCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "MobileCenter-Config.plist"; path = "Cagey/MobileCenter-Config.plist"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		76B74C32AA8F486BA1151756 /* libPods-Cagey.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cagey.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7F6DFD021E0DA302004ABEC8 /* nic-cage-screaming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "nic-cage-screaming.mp3"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		858B2ECB72314A66BEFB2612 /* RNAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNAnalytics.xcodeproj; path = "../node_modules/mobile-center-analytics/ios/RNAnalytics.xcodeproj"; sourceTree = "<group>"; };
-		860B6461C1D4FE713AA207BB /* Pods-Cagey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cagey.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cagey/Pods-Cagey.release.xcconfig"; sourceTree = "<group>"; };
 		884B0D7859F44CE9919B6DE8 /* RNSound.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSound.xcodeproj; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; };
-		AAC8F82195FF4B2CB9144937 /* libRNAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAnalytics.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,8 +231,6 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				D8AFD7788A4D42DDBAC85D9C /* libRNSound.a in Frameworks */,
-				D9FD3A1774A24716A52507B8 /* libRNAnalytics.a in Frameworks */,
-				9921009B60DCE3784BB2F5CC /* libPods-Cagey.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,15 +338,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		21CEFFC0306BDB3D83FB16E9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				25A14ECC1B5579A1E6B4DBBA /* Pods-Cagey.debug.xcconfig */,
-				860B6461C1D4FE713AA207BB /* Pods-Cagey.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -372,14 +345,6 @@
 				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation-tvOS.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6ADE6CD468A6DBAE618DB774 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				76B74C32AA8F486BA1151756 /* libPods-Cagey.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
@@ -399,14 +364,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FCB590D1E0EE5BC00B550DF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7FCB59241E0EE5BC00B550DF /* libRNAnalytics.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -422,7 +379,6 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				884B0D7859F44CE9919B6DE8 /* RNSound.xcodeproj */,
-				858B2ECB72314A66BEFB2612 /* RNAnalytics.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -443,9 +399,6 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* CageyTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				5C2AC3CFBCFB4806A019FCF0 /* MobileCenter-Config.plist */,
-				21CEFFC0306BDB3D83FB16E9 /* Pods */,
-				6ADE6CD468A6DBAE618DB774 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -485,13 +438,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Cagey" */;
 			buildPhases = (
-				14C440E34E8D6A14F8DB59C7 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				ECD14F11F0592C308654F448 /* [CP] Embed Pods Frameworks */,
-				E5B83B572D7B9F4F83D50FC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -517,7 +467,6 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 83KTNUJXF7;
-						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -576,10 +525,6 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-				},
-				{
-					ProductGroup = 7FCB590D1E0EE5BC00B550DF /* Products */;
-					ProjectRef = 858B2ECB72314A66BEFB2612 /* RNAnalytics.xcodeproj */;
 				},
 				{
 					ProductGroup = 7F85E3771E0D9ED400F07CDA /* Products */;
@@ -728,13 +673,6 @@
 			remoteRef = 7F85E38D1E0D9ED400F07CDA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		7FCB59241E0EE5BC00B550DF /* libRNAnalytics.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNAnalytics.a;
-			remoteRef = 7FCB59231E0EE5BC00B550DF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		832341B51AAA6A8300B99B32 /* libRCTText.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -759,7 +697,6 @@
 				7F6DFD031E0DA302004ABEC8 /* nic-cage-screaming.mp3 in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				D4F126F3C8724515AABFA246 /* MobileCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -779,51 +716,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
-		};
-		14C440E34E8D6A14F8DB59C7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E5B83B572D7B9F4F83D50FC5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cagey/Pods-Cagey-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ECD14F11F0592C308654F448 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cagey/Pods-Cagey-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -882,7 +774,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cagey.app/Cagey";
@@ -900,7 +791,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cagey.app/Cagey";
@@ -909,7 +799,6 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25A14ECC1B5579A1E6B4DBBA /* Pods-Cagey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -924,15 +813,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.crafty.samples.cagey;
 				PRODUCT_NAME = Cagey;
-				PROVISIONING_PROFILE = "617a0f5f-3059-4935-ada1-48a90adfcb7c";
-				PROVISIONING_PROFILE_SPECIFIER = "Cagey - Dev";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 860B6461C1D4FE713AA207BB /* Pods-Cagey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -946,8 +832,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.crafty.samples.cagey;
 				PRODUCT_NAME = Cagey;
-				PROVISIONING_PROFILE = "617a0f5f-3059-4935-ada1-48a90adfcb7c";
-				PROVISIONING_PROFILE_SPECIFIER = "Cagey - Dev";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -991,7 +875,6 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native/ReactCommon/**",
 					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
-					"$(SRCROOT)/../node_modules/mobile-center-analytics/ios/RNAnalytics",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1033,7 +916,6 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 					"$(SRCROOT)/../node_modules/react-native/ReactCommon/**",
 					"$(SRCROOT)/../node_modules/react-native-sound/RNSound",
-					"$(SRCROOT)/../node_modules/mobile-center-analytics/ios/RNAnalytics",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;

@@ -1,4 +1,3 @@
 <resources>
-    <string moduleConfig="true" name="mobileCenterAnalytics_whenToEnableAnalytics">ALWAYS_SEND</string>
     <string name="app_name">Cagey</string>
 </resources>
